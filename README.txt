@@ -10,5 +10,5 @@ Using OAuth 2.0, connects to the Google+ Domains API, allows posting of simple t
 Demo Video Link: https://media.oregonstate.edu/media/t/1_ihf1l6xw
 
 Final Project:
-Connects to a 3rd party API, allows the user to log in, view data via tha API, and create data for storage on a SQLite Database.
+Connects to a 3rd party API, allows the user to log in, view data via the API, and create data for storage on a SQLite Database.
 Demo Video Link: https://media.oregonstate.edu/media/t/1_yu8ys5nh
