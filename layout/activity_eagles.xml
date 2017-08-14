@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:orientation="vertical"
+    tools:context=".EaglesActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="West Coast Eagles"
+        android:id="@+id/Layout1"
+        android:layout_margin="5dp"
+        android:textSize="35sp"
+        android:background="@color/colorGold"
+        android:textColor="@color/colorPrimary" />
+
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/teamsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to List WCE!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here are the players for the WCE:"
+        android:id="@+id/listOf"
+        android:layout_margin="5dp"
+        android:textSize="35sp"
+        android:background="@color/colorGold"
+        android:textColor="@color/colorPrimary" />
+
+
+    <ListView
+        android:id="@+id/teams_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+    </ListView>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/teamsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="16dp"
+        />
+
+    <ListView
+        android:id="@+id/simple_list_item_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+    </ListView>
+
+
+
+</LinearLayout>

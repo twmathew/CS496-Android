@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Tom's AFL App! (The AFL is the Austrailian Football League.)"
+        android:id="@+id/Layout1"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:background="@color/colorBlank"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This App focuses on Western Teams from the league."
+        android:id="@+id/Layout2"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:background="@color/colorBlank"
+        android:textColor="@color/colorPrimary" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to See the roster for the West Coast Eagles"
+        android:id="@+id/EaglesLink"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:background="@color/colorGold"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to See the roster for the Western Bulldogs"
+        android:id="@+id/BulldogsLink"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Now, you can pick and save your favorite players from the teams!"
+        android:id="@+id/Layout3"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:background="@color/colorBlank"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to Pick Players!"
+        android:id="@+id/WinnersLink"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:background="@color/colorPick"
+        android:textColor="@color/colorPrimary" />
+
+
+
+</LinearLayout>
