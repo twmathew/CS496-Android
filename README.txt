@@ -1,5 +1,5 @@
 # CS496-Android
-Contains 3 Assignments:
+Contains 3 Assignments, each on a branch
 
 SQLite/Location App:
 Implements permission handling, location access and database creation/access.
